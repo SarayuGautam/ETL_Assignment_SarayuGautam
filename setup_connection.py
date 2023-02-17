@@ -2,7 +2,7 @@ import snowflake.connector
 import csv
 exportConnection = snowflake.connector.connect(
     user='Sarayu',
-    password='Mokingjay1!@#',
+    password='LisNepal1!@#',
     account='yc85141.central-india.azure',
     warehouse='COMPUTE_WH',
     role='ACCOUNTADMIN',
@@ -13,7 +13,7 @@ exportCursor = exportConnection.cursor()
 
 bhatbhateniWHConnection = snowflake.connector.connect(
     user='Sarayu',
-    password='Mokingjay1!@#',
+    password='LisNepal1!@#',
     account='yc85141.central-india.azure',
     warehouse='COMPUTE_WH',
     role='ACCOUNTADMIN',
